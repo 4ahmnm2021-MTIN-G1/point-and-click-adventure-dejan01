@@ -14,6 +14,7 @@ public class InteractabelObject : MonoBehaviour
     public string inspectText;
     public SpriteRenderer sr;
     public Image img;
+    public Sprite spriteObject;
 
     // Start is called before the first frame update
     void Start()

@@ -24,6 +24,6 @@ public Text Dialogfenster;
     public void CollectItem()
     {
         Debug.Log("CollectItem FKT ist aufgerufen");
-        activeIO.img.sprite = activeIO.sr.sprite;
+        activeIO.img.sprite = activeIO.spriteObject;
     }
 }
