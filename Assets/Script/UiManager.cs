@@ -7,11 +7,11 @@ public class UiManager : MonoBehaviour
 {
 
 public InteractabelObject activeIO;
-public Text Dialogfenster;
+//public Text Dialogfenster;
 
     
     
-    public void DisplayText()
+   /* public void DisplayText()
     {
         Dialogfenster.text = activeIO.inspectText;
     }
@@ -19,7 +19,7 @@ public Text Dialogfenster;
     public void Exit()
     {
         Dialogfenster.text = " ";
-    }
+    }*/
 
     public void CollectItem()
     {
