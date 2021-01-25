@@ -15,6 +15,7 @@ public class InteractabelObject : MonoBehaviour
     public SpriteRenderer sr;
     public Image img;
     public Sprite spriteObject;
+    public GameObject Communication;
 
     // Start is called before the first frame update
     void Start()
@@ -37,4 +38,6 @@ public class InteractabelObject : MonoBehaviour
         //Dialogfenster.text = inspectText;
 
     }
+
+    
 }
